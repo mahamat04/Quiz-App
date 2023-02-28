@@ -24,3 +24,29 @@
 .choice-text {
     padding: 1.5rem;
 }
+
+.correct {
+    background-color: #7ec78f;
+}
+
+.incorrect {
+    background-color: #e66773;
+}
+
+#question {
+    font-size: 3rem;
+}
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+#hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#hud-main-text {
+    text-align: center;
+}
