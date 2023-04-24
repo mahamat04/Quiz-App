@@ -68,3 +68,22 @@
     font-size: 2rem;
 }
 
+/* Loader */
+#loader {
+    border:1.6rem solid white ;
+    border-top: 1.6rem solid #56a5eb;
+    border-radius: 60%;
+    height: 14rem;
+    width: 14rem;
+    animation: kf 1.5s linear infinite;
+}
+
+@keyframes kf {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
